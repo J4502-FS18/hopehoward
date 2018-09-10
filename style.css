@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  font-family: "Viga", "Times New Roman", serif;
+  font-weight: 350px;
+  color: blue;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+#title{
+  font-family: "Barrio", "Times New Roman", serif;
+}
+
+#navbar{
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  padding:4px;
+  font-family: 'Italiana';
+}
+
+a{
+  text-decoration: none;
+  font-family:
+}
