@@ -10,6 +10,27 @@ p{
   text-align: center;
 }
 
+h1 {
+  font-family: 'Merriweather', serif;
+  font-wight: 700
+  font-size:32px
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-wight: 500
+  font-size:16px
+}
+
+img{
+  border: none
+}
+
+a{
+  text-decoration: none;
+  font-family:
+}
+
 #title{
   font-family: "Barrio", "Times New Roman", serif;
 }
@@ -26,9 +47,4 @@ p{
   text-decoration: none;
   padding:4px;
   font-family: 'Italiana';
-}
-
-a{
-  text-decoration: none;
-  font-family:
 }
