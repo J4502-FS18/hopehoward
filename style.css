@@ -1,10 +1,13 @@
 body{
-  text-align: center;
-  font-family: "Viga", "Times New Roman", serif;
-  font-weight: 350px;
-  color: blue;
-  font-size: 20px;
   background-color: yellow;
+}
+
+p{
+  color: blue;
+  font-family: "Viga", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
 
 #title{
