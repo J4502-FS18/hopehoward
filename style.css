@@ -14,12 +14,21 @@ h1 {
   font-family: 'Merriweather', serif;
   font-wight: 700
   font-size:32px
+  text-aligh: center;
 }
 
 h2 {
   font-family: 'Merriweather', serif;
   font-wight: 500
   font-size:16px
+  text-aligh: center;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-wight: 200
+  font-size:12px
+  text-aligh: center;
 }
 
 img{
