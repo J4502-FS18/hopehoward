@@ -1,58 +1,55 @@
 body{
-  background-color: yellow;
+  background-color: white;
+  text-align: center;
 }
 
 p{
-  color: blue;
+  color: white;
   font-family: "Viga", "Times New Roman", serif;
   font-weight: 400;
   font-size: 14px;
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Merriweather', serif;
-  font-weight: 700
-  font-size: 32px
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: 500
-  font-size: 16px
-  text-align: center;
-}
-
-h3 {
-  font-family: 'Merriweather', serif;
-  font-weight: 200
-  font-size:12px
-  text-align: center;
 }
 
 img{
-  border: none
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 a{
   text-decoration: none;
-  font-family:
 }
 
-#title{
+#title1{
   font-family: "Barrio", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #BA443E;
+}
+
+#title2{
+    font-family: "Barrio", "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #631B3A;
+}
+
+#title3{
+    font-family: "Barrio", "Times New Roman", serif;
+    font-weight: 400;
+    font-size:20px;
+    color: #E33D84
 }
 
 #container{
-  width:95%
-  background-color: #ffffff;
-  margin: 0 auto;
+  background-color: #EBADB4;
 }
 
 
 #nav {
-    padding: 0;
+  padding: 0;
 	list-style-type: none;
 }
 
@@ -65,21 +62,24 @@ a{
 
 #nav a:link, a:visited {
 	display:block;
-    color: #ffffff;
-    background-color: #98bf21;
+    color: #25789C;
+    background-color: #FF5E55;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Italiana", Arial, sans-serif;
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: #BA443E;
+}
 
-#footer{
-    color: black;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.8em;
-    border-top: 1px solid black;
+
+#footer1 {
+  color: brown;
+  display: block;
+  font-family: "Italiana", "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
 }
