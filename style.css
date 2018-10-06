@@ -58,6 +58,8 @@ a{
 @media  (min-width:599px){
 #nav{
   flex-direction:row;
+  justify-content: center;
+
 }
 
 }
