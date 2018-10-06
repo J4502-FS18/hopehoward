@@ -58,7 +58,7 @@ a{
 @media  (min-width:599px){
 #nav{
   flex-direction:row;
-  justify-content: center;
+  justify-content: space-around;
 
 }
 
@@ -67,7 +67,7 @@ a{
 
 #nav li {
     margin: 0;
-    padding: 10;
+    padding: 0;
 	  border-bottom: 1px solid #ccc;
 	  text-decoration: none;
 }
