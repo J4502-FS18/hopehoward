@@ -55,67 +55,31 @@ a{
   flex-direction: column;
 }
 
+.cards {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+    /*grid-column-gap: 10px;
+    grid-row-gap: 25px; */
+}
+
+.cards li {
+    background-color: #f1b82d;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
 @media (min-width:599px){
   #nav{
    flex-direction:row;
    justify-content:space-around;
   }
-}
-
-  @media screen and (min-width:1000px) {
-    article {
-      display: grid;
-      grid-template-columns: 200px 1fr 1fr;
-      grid-gap: 20px;
-      grid-template-areas:
-          "a b c"
-          "d e f"
-          "g h i";
-    }
-
-    .section1 {
-      grid-area: a;
-      margin-top: 5;
-    }
-
-    .section2{
-      margin-top: 5;
-      grid-area: b;
-    }
-
-    .section3 {
-      margin-top: 5;
-      grid-area: c;
-    }
-
-    .section4 {
-      margin-top: 5;
-      grid-area: d;
-    }
-    .section5 {
-      margin-top: 5;
-      grid-area: e;
-    }
-
-    .section6 {
-      margin-top: 5;
-      grid-area: f;
-    }
-
-    .section7 {
-      margin-top: 5;
-      grid-area: g;
-    }
-
-    .section8 {
-      margin-top: 5;
-      grid-area: h;
-    }
-
-    .section9 {
-      margin-top: 5;
-      grid-area: i;
-    }
 
 
 #nav li {
