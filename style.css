@@ -45,7 +45,6 @@ a{
 
 #container{
   background-color: #EBADB4;
-  
 }
 
 
@@ -62,7 +61,6 @@ a{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: minmax(150px, auto);
     gap: 5px;
     grid-column-gap: 10px;
     grid-row-gap: 15px;
