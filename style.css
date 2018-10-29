@@ -8,6 +8,7 @@ p{
   font-family: "Viga", "Times New Roman", serif;
   font-weight: 400;
   font-size: 14px;
+  max-width: 90%;
 }
 
 img{
@@ -55,35 +56,68 @@ a{
   flex-direction: column;
 }
 
-.cards {
+/*@media (min-width:400px){
+   .photos{
+    display: none;
+  }
+}
+
+@media (min-width:400px){
+   .cards{
+     flex-direction:row;
+     justify-content:space-around;
+    }
+}
+
+@media (min-width:400px){
+      #nav{
+       flex-direction:row;
+       justify-content:space-around;
+      }
+}*/
+
+  .photos{
+    list-style:none;
+    align-content: center;
+  }
+
+
+  .cards {
     margin: 0;
-    padding: 0;
+    padding:0;
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: minmax(150px, auto);
-    gap: 5px;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+  }
 
-}
+  .cards li {
+      background-color: #6fb2bf;
+      border: 1px solid #ccc;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+  }
 
+  .cards1{
+  grid-area:a;
+  }
 
-.cards li {
-    background-color: #6fb2bf;
-    border: 1px solid #ccc;
-    padding: 20px
+  .card2{
+  grid-area:b;
+  }
 
-    border-radius: 10px;
-    font-family: "Barrio", "Times New Roman", serif;
-    color: white;
-}
+  .card3{
+  grid-area:c;
+  }
 
+  .card4{
+  grid-area:d;
+  }
 
-@media (min-width:600px){
-  #nav{
-   flex-direction:row;
-   justify-content:space-around;
+  .card5{
+  grid-area:e;
+  }
+
+  .card6{
+  grid-area:f;
   }
 
 
@@ -116,4 +150,41 @@ a{
   font-family: "Italiana", "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+}
+
+
+@media (min-width:800px){
+
+.photos{
+  display:grid;
+  grid-template-columns: 1fr 1fr}
+
+  #nav{
+   flex-direction:row;
+   justify-content:space-around;
+  }
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+  "a b c"
+  "d e f"
+}
+
+}
+
+@media (min-width:1200px){
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-areas:
+  "a b c c"
+  "d e f f"
+}
+
 }
