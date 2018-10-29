@@ -77,11 +77,18 @@ a{
 }
 
 
-@media (min-width:599px){
+@media (min-width:600px){
   #nav{
    flex-direction:row;
    justify-content:space-around;
   }
+
+@media (max-width:600px){
+  .cards{
+    flex-direction:column;
+    justify-content:space-around;;
+  }
+}
 
 
 #nav li {
